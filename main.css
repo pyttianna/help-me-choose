@@ -4,6 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 150px;
+  background-color: yellow;
 }
 
 h1 {
@@ -28,7 +29,19 @@ input {
   margin-top: 10px;
 }
 
-.addOption {
+button {
   margin-top: 10px;
+  background-color: yellow;
+  font-size: 20px;
+  font-weight: bold;
+  border: black 1px;
+  border-radius: 20px;
+  border-style: solid;
+  padding: 10px;
 
+}
+
+button:hover {
+    background-color: black;
+    color: yellow;
 }
